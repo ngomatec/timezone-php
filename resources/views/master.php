@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-  <title><?= $title ?> - Time Zone PHP</title>
+  <title><?= $title ?> - TimeZone PHP</title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -23,8 +23,8 @@
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="/" rel="tooltip" title="Treino de time zone com PHP" data-placement="bottom">
-          <span>Timezone</span> com PHP
+        <a class="navbar-brand" href="/" rel="tooltip" title="TimeZone com PHP" data-placement="bottom">
+          <span>TZ</span> PHP
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
@@ -49,22 +49,28 @@
         </div>
         <ul class="navbar-nav">
           <li class="nav-item p-0">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="#" target="_blank">
               <i class="fab fa-twitter"></i>
               <p class="d-lg-none d-xl-none">Twitter</p>
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="#" target="_blank">
               <i class="fab fa-facebook-square"></i>
               <p class="d-lg-none d-xl-none">Facebook</p>
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="#" target="_blank">
               <i class="fab fa-instagram"></i>
               <p class="d-lg-none d-xl-none">Instagram</p>
             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/description">Descrição</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/about">Sobre</a>
@@ -82,27 +88,27 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h1 class="title">BLK•</h1>
+            <h1 class="title">TZ-PHP•</h1>
           </div>
           <div class="col-md-3">
             <ul class="nav">
               <li class="nav-item">
-                <a href="../index.html" class="nav-link">
+                <a href="/" class="nav-link">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../examples/landing-page.html" class="nav-link">
+                <a href="#" class="nav-link">
                   Landing
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../examples/register-page.html" class="nav-link">
+                <a href="#" class="nav-link">
                   Register
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../examples/profile-page.html" class="nav-link">
+                <a href="#" class="nav-link">
                   Profile
                 </a>
               </li>
@@ -111,22 +117,22 @@
           <div class="col-md-3">
             <ul class="nav">
               <li class="nav-item">
-                <a href="https://creative-tim.com/contact-us" class="nav-link">
+                <a href="#" class="nav-link">
                   Contact Us
                 </a>
               </li>
               <li class="nav-item">
-                <a href="https://creative-tim.com/about-us" class="nav-link">
+                <a href="#" class="nav-link">
                   About Us
                 </a>
               </li>
               <li class="nav-item">
-                <a href="https://creative-tim.com/blog" class="nav-link">
+                <a href="#" class="nav-link">
                   Blog
                 </a>
               </li>
               <li class="nav-item">
-                <a href="https://opensource.org/licenses/MIT" class="nav-link">
+                <a href="#" class="nav-link">
                   License
                 </a>
               </li>
@@ -135,13 +141,13 @@
           <div class="col-md-3">
             <h3 class="title">Follow us:</h3>
             <div class="btn-wrapper profile">
-              <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+              <a target="_blank" href="#" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
+              <a target="_blank" href="#" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
                 <i class="fab fa-facebook-square"></i>
               </a>
-              <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+              <a target="_blank" href="#" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
                 <i class="fab fa-dribbble"></i>
               </a>
             </div>
