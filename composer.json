@@ -1,0 +1,17 @@
+{
+    "name": "ngomat/timezone-php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nTec",
+            "email": "ngomatec@gmail.com"
+        }
+    ],
+    "require": {
+        "ngomafortuna/route-system-simple": "^0.0.2"
+    }
+}
