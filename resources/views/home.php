@@ -6,9 +6,11 @@
       <div class="container align-items-center">
         <div class="row">
           <div class="col-lg-6 col-md-6">
-            <h1 class="profile-title text-left">Mike Scheinder</h1>
+            <h1 class="profile-title text-left">TimeZone PHP</h1>
             <h5 class="text-on-back">01</h5>
-            <p class="profile-description">Offices parties lasting outward nothing age few resolve. Impression to discretion understood to we interested he excellence. Him remarkably use projection collecting. Going about eat forty world has round miles.</p>
+            <p class="profile-description">
+              No PHP, a funcionalidade de timezone é como o relógio define o horário de um determinado fuso horário, sendo que ele pode ser configurado no script PHP, no arquivo php.ini ou no arquivo .htaccess do servidor web. O PHP utiliza o fuso horário definido para a exibição correta da hora, tanto para o servidor quanto para os utilizadores do site, especialmente em aplicações globais.
+            </p>
             <div class="btn-wrapper profile pt-3">
               <a target="_blank" href="#" class="btn btn-icon btn-twitter btn-round" data-toggle="tooltip" data-original-title="Follow us">
                 <i class="fab fa-twitter"></i>
@@ -21,27 +23,27 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+          <div class="col-lg-5 col-md-6 ml-auto mr-auto">
             <div class="card card-coin card-plain">
               <div class="card-header">
                 <img src="../assets/img/mike.jpg" class="img-center img-fluid rounded-circle">
-                <h4 class="title">Transactions</h4>
+                <h4 class="title">TimeZones</h4>
               </div>
               <div class="card-body">
                 <ul class="nav nav-tabs nav-tabs-primary justify-content-center">
                   <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#linka">
-                      Wallet
+                      Parte 1
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#linkb">
-                      Send
+                      Parte 2
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#linkc">
-                      News
+                      Parte 3
                     </a>
                   </li>
                 </ul>
@@ -51,100 +53,86 @@
                       <table class="table tablesorter " id="plain-table">
                         <thead class=" text-primary">
                           <tr>
-                            <th class="header">
-                              COIN
-                            </th>
-                            <th class="header">
-                              AMOUNT
-                            </th>
-                            <th class="header">
-                              VALUE
-                            </th>
+                            <th class="header">Continente</th>
+                            <th class="header">Cidade</th>
+                            <th class="header">TimeZone</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
-                              BTC
-                            </td>
-                            <td>
-                              7.342
-                            </td>
-                            <td>
-                              48,870.75 USD
-                            </td>
+                            <td>BTC</td>
+                            <td>7.342</td>
+                            <td>48,870.75 USD</td>
                           </tr>
                           <tr>
-                            <td>
-                              ETH
-                            </td>
-                            <td>
-                              30.737
-                            </td>
-                            <td>
-                              64,53.30 USD
-                            </td>
+                            <td>ETH</td>
+                            <td>30.737</td>
+                            <td>64,53.30 USD</td>
                           </tr>
                           <tr>
-                            <td>
-                              XRP
-                            </td>
-                            <td>
-                              19.242
-                            </td>
-                            <td>
-                              18,354.96 USD
-                            </td>
+                            <td>XRP</td>
+                            <td>19.242</td>
+                            <td>18,354.96 USD</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
                   <div class="tab-pane" id="linkb">
-                    <div class="row">
-                      <label class="col-sm-3 col-form-label">Pay to</label>
-                      <div class="col-sm-9">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="e.g. 1Nasd92348hU984353hfid">
-                          <span class="form-text">Please enter a valid address.</span>
-                        </div>
-                      </div>
+                    <div class="table-responsive">
+                      <table class="table tablesorter " id="plain-table">
+                        <thead class=" text-primary">
+                          <tr>
+                            <th class="header">Continente</th>
+                            <th class="header">Cidade</th>
+                            <th class="header">TimeZone</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>BTC</td>
+                            <td>7.342</td>
+                            <td>48,870.75 USD</td>
+                          </tr>
+                          <tr>
+                            <td>ETH</td>
+                            <td>30.737</td>
+                            <td>64,53.30 USD</td>
+                          </tr>
+                          <tr>
+                            <td>XRP</td>
+                            <td>19.242</td>
+                            <td>18,354.96 USD</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
-                    <div class="row">
-                      <label class="col-sm-3 col-form-label">Amount</label>
-                      <div class="col-sm-9">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="1.587">
-                        </div>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-simple btn-primary btn-icon btn-round float-right"><i class="tim-icons icon-send"></i></button>
                   </div>
                   <div class="tab-pane" id="linkc">
                     <div class="table-responsive">
                       <table class="table tablesorter " id="plain-table">
                         <thead class=" text-primary">
                           <tr>
-                            <th class="header">
-                              Latest Crypto News
-                            </th>
+                            <th class="header">Continente</th>
+                            <th class="header">Cidade</th>
+                            <th class="header">TimeZone</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
-                              The Daily: Nexo to Pay on Stable...
-                            </td>
+                            <td>BTC</td>
+                            <td>7.342</td>
+                            <td>48,870.75 USD</td>
                           </tr>
                           <tr>
-                            <td>
-                              Venezuela Begins Public of Nation...
-                            </td>
+                            <td>ETH</td>
+                            <td>30.737</td>
+                            <td>64,53.30 USD</td>
                           </tr>
                           <tr>
-                            <td>
-                              PR: BitCanna – Dutch Blockchain...
-                            </td>
+                            <td>XRP</td>
+                            <td>19.242</td>
+                            <td>18,354.96 USD</td>
                           </tr>
                         </tbody>
                       </table>
