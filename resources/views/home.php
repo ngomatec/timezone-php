@@ -55,25 +55,17 @@
                           <tr>
                             <th class="header">Continente</th>
                             <th class="header">Cidade</th>
-                            <th class="header">TimeZone</th>
+                            <th class="header">Data e hora</th>
                           </tr>
                         </thead>
                         <tbody>
+                          <?php foreach($timezones[0] as $key => $tzone): if($key > 5); ?>
                           <tr>
-                            <td>BTC</td>
-                            <td>7.342</td>
-                            <td>48,870.75 USD</td>
+                            <td><?= $tzone->continent ?></td>
+                            <td><?= $tzone->city ?></td>
+                            <td><?= $tzone->datetime ?></td>
                           </tr>
-                          <tr>
-                            <td>ETH</td>
-                            <td>30.737</td>
-                            <td>64,53.30 USD</td>
-                          </tr>
-                          <tr>
-                            <td>XRP</td>
-                            <td>19.242</td>
-                            <td>18,354.96 USD</td>
-                          </tr>
+                          <?php endforeach ?>
                         </tbody>
                       </table>
                     </div>
@@ -85,25 +77,17 @@
                           <tr>
                             <th class="header">Continente</th>
                             <th class="header">Cidade</th>
-                            <th class="header">TimeZone</th>
+                            <th class="header">Data e hora</th>
                           </tr>
                         </thead>
                         <tbody>
+                          <?php foreach($timezones[1] as $key => $tzone): ?>
                           <tr>
-                            <td>BTC</td>
-                            <td>7.342</td>
-                            <td>48,870.75 USD</td>
+                            <td><?= $tzone->continent ?></td>
+                            <td><?= $tzone->city ?></td>
+                            <td><?= $tzone->datetime ?></td>
                           </tr>
-                          <tr>
-                            <td>ETH</td>
-                            <td>30.737</td>
-                            <td>64,53.30 USD</td>
-                          </tr>
-                          <tr>
-                            <td>XRP</td>
-                            <td>19.242</td>
-                            <td>18,354.96 USD</td>
-                          </tr>
+                          <?php endforeach ?>
                         </tbody>
                       </table>
                     </div>
@@ -115,25 +99,17 @@
                           <tr>
                             <th class="header">Continente</th>
                             <th class="header">Cidade</th>
-                            <th class="header">TimeZone</th>
+                            <th class="header">Data e hora</th>
                           </tr>
                         </thead>
                         <tbody>
+                          <?php foreach($timezones[2] as $key => $tzone): ?>
                           <tr>
-                            <td>BTC</td>
-                            <td>7.342</td>
-                            <td>48,870.75 USD</td>
+                            <td><?= $tzone->continent ?></td>
+                            <td><?= $tzone->city ?></td>
+                            <td><?= $tzone->datetime ?></td>
                           </tr>
-                          <tr>
-                            <td>ETH</td>
-                            <td>30.737</td>
-                            <td>64,53.30 USD</td>
-                          </tr>
-                          <tr>
-                            <td>XRP</td>
-                            <td>19.242</td>
-                            <td>18,354.96 USD</td>
-                          </tr>
+                          <?php endforeach ?>
                         </tbody>
                       </table>
                     </div>
