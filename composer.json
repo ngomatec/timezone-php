@@ -2,7 +2,8 @@
     "name": "ngomat/timezone-php",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "resources\\": "resources/"
         }
     },
     "authors": [
